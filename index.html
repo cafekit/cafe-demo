@@ -1,0 +1,295 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Discover handcrafted coffee, delicious pastries and unforgettable moments at Brew Haven Café.">
+    <meta name="theme-color" content="#17130f">
+
+    <title>Brew Haven Café | Coffee, Crafted with Love</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <nav class="navbar container">
+
+        <a href="#home" class="logo">
+            BREW HAVEN<span>.</span>
+            <small>COFFEE & COMPANY</small>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#visit">Visit Us</a></li>
+            <li><a href="#visit" class="nav-button">Find a Table</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+<main>
+
+    <!-- HERO -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content container">
+
+            <p class="eyebrow">A LITTLE MOMENT OF BLISS</p>
+
+            <h1>
+                Coffee is our
+                <span>love language.</span>
+            </h1>
+
+            <p class="hero-description">
+                Crafted with passion, served with warmth.
+                Discover your new favorite coffee experience.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#menu" class="btn btn-primary">Explore Our Menu</a>
+                <a href="#story" class="btn btn-outline">Our Story</a>
+            </div>
+
+        </div>
+
+        <div class="hero-bottom">
+            <span>EST. 2020</span>
+            <span>MADE WITH PASSION · SERVED WITH LOVE</span>
+        </div>
+
+    </section>
+
+    <!-- STORY -->
+
+    <section class="story section-padding" id="story">
+
+        <div class="container story-grid">
+
+            <div class="story-image">
+                <img
+                    src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1000&q=85"
+                    alt="Freshly brewed specialty coffee"
+                    loading="lazy"
+                >
+                <div class="image-caption">GOOD COFFEE. GOOD COMPANY.</div>
+            </div>
+
+            <div class="story-content">
+
+                <p class="eyebrow">OUR PHILOSOPHY</p>
+
+                <h2>
+                    More than coffee.
+                    <span>A feeling.</span>
+                </h2>
+
+                <p>
+                    At Brew Haven, we believe the best moments
+                    happen over a great cup of coffee.
+                </p>
+
+                <p>
+                    From carefully selected beans to every
+                    handcrafted cup, we put love and attention
+                    into everything we serve.
+                </p>
+
+                <a href="#menu" class="text-link">
+                    Discover our menu →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- MENU -->
+
+    <section class="menu-section section-padding" id="menu">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="eyebrow">MADE TO MAKE YOU SMILE</p>
+                <h2>Our Favorites</h2>
+                <p>A little something for every coffee lover.</p>
+            </div>
+
+            <div class="menu-grid">
+
+                <article class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=700&q=85" alt="Creamy latte" loading="lazy">
+                    <div class="menu-info">
+                        <div>
+                            <h3>Vanilla Latte</h3>
+                            <p>Espresso, steamed milk & vanilla.</p>
+                        </div>
+                        <strong>$5.50</strong>
+                    </div>
+                </article>
+
+                <article class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=700&q=85" alt="Iced coffee" loading="lazy">
+                    <div class="menu-info">
+                        <div>
+                            <h3>Iced Americano</h3>
+                            <p>Bold espresso served over ice.</p>
+                        </div>
+                        <strong>$4.00</strong>
+                    </div>
+                </article>
+
+                <article class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=700&q=85" alt="Fresh coffee" loading="lazy">
+                    <div class="menu-info">
+                        <div>
+                            <h3>Classic Cappuccino</h3>
+                            <p>Rich espresso with silky foam.</p>
+                        </div>
+                        <strong>$4.75</strong>
+                    </div>
+                </article>
+
+                <article class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=700&q=85" alt="Fresh pastry" loading="lazy">
+                    <div class="menu-info">
+                        <div>
+                            <h3>Fresh Pastry</h3>
+                            <p>Freshly baked morning favorite.</p>
+                        </div>
+                        <strong>$3.50</strong>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="menu-footer">
+                <p>Good things take time. Great coffee takes passion.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- GALLERY -->
+
+    <section class="gallery section-padding" id="gallery">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="eyebrow">A GLIMPSE INTO OUR WORLD</p>
+                <h2>Moments at Brew Haven</h2>
+            </div>
+
+            <div class="gallery-grid">
+
+                <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=900&q=85" alt="Coffee shop interior" loading="lazy">
+
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=900&q=85" alt="Coffee preparation" loading="lazy">
+
+                <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=900&q=85" alt="Coffee beans and brewing" loading="lazy">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- VISIT -->
+
+    <section class="visit section-padding" id="visit">
+
+        <div class="container visit-grid">
+
+            <div>
+                <p class="eyebrow">WE'D LOVE TO SEE YOU</p>
+
+                <h2>Your table is
+                    <span>waiting.</span>
+                </h2>
+
+                <p class="visit-description">
+                    Take a break, enjoy a cup and make yourself
+                    at home. Your next favorite coffee is waiting.
+                </p>
+
+                <a href="mailto:YOUR_EMAIL@example.com?subject=Table%20Reservation"
+                   class="btn btn-primary">
+                    Request a Reservation
+                </a>
+            </div>
+
+            <div class="visit-details">
+
+                <div>
+                    <h3>LOCATION</h3>
+                    <p>123 Coffee Street<br>New York, NY 10001</p>
+                </div>
+
+                <div>
+                    <h3>OPENING HOURS</h3>
+                    <p>Monday – Friday: 7 AM – 8 PM<br>
+                       Saturday – Sunday: 8 AM – 9 PM</p>
+                </div>
+
+                <div>
+                    <h3>GET IN TOUCH</h3>
+                    <p>YOUR_PHONE_NUMBER</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <div class="container footer-content">
+
+        <a href="#home" class="logo">
+            BREW HAVEN<span>.</span>
+            <small>COFFEE & COMPANY</small>
+        </a>
+
+        <p>© 2026 Brew Haven Café. All rights reserved.</p>
+
+        <a href="#home" class="back-top">Back to top ↑</a>
+
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
